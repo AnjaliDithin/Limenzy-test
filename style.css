@@ -1,0 +1,284 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Poppins;
+    color:black;
+}
+.logo-brand{
+    width:95px;
+    height:94px;
+    
+}
+.navbar-nav{
+    float:right;
+    margin-left:290px;
+}
+.nav-link{
+    font-size: 15.1px;
+}
+.main-home-banner{
+    background-color:white;
+    
+}
+.home-banner{
+    width:100%;
+    background-color:white;
+    
+}
+.home-banner .jumbotron{
+    margin:0px;
+    padding:100px 60px;
+    background-image: url('/assets/banner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.78;
+    
+  
+    
+}
+.jumbotron h1{
+    font-size: 50px;
+    font-weight: bold;
+    color:white;
+}
+.jumbotron p{
+    font-size: 18px;
+    font-weight:normal;
+    color:white;
+}
+
+.jumbotron .btn{
+    font-size: 15px;
+    line-height: 40.03px;
+    font-weight:medium;
+    width:170px;
+    height:50px;
+    border-radius: 50px;
+    
+}
+.image-stack {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    position: relative;
+  }
+
+  .image-stack__item--top {
+    grid-column:4;
+    grid-row:1;
+    padding-top: 50%; 
+    padding-left:40%;
+    z-index: 1; 
+    
+  }
+  .image-stack__item--bottom {
+    grid-column:4;
+    grid-row:1; 
+  }
+  .about1{
+    width:450px;
+    height:470px;
+    
+}
+.about2{
+    width:301px;
+    height:301px;
+}  
+.about h2{
+    font-size: 35px;
+    font-weight:600 ;
+    line-height: 70px;
+    
+}
+.about p{
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 28px;
+}
+.about .btn{
+    font-size: 15px;
+    line-height: 40.03px;
+    font-weight:medium;
+    width:170px;
+    height:50px;
+    border-radius: 50px;
+    background-color: #009344;
+    color:white;
+}
+
+.main-services-banner{
+    background-color:white;
+    
+}
+.services-banner{
+    width:100%;
+    background-color:white;
+    
+}
+.services-banner .jumbotron{
+    margin:0px;
+    padding:80px 60px;
+    background-image: url('/assets/treatments.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.services-banner h2{
+    font-size: 35px;
+    font-weight:600 ;
+    line-height: 70px;
+    text-align: center;
+    color:black;
+}
+.services-banner p{
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    color:black;
+    
+}
+
+.cards{
+    
+    background:white;
+    border-radius: 15px;
+    border-width: 8px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    transition: border 1s;
+    position: relative;
+    color:white;
+    box-shadow:0 10px 0 10px; 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width:200px;
+    height:150px;
+}
+.cards .cards-head{
+    font-size:20px;
+    font-weight: 700;
+    text-align: center;
+}
+.cards .cards-content{
+    font-size: 15px;
+    font-weight: normal;
+    text-align: center;
+}
+.facility-banner h2{
+    font-size: 35px;
+    font-weight:600 ;
+    line-height: 70px;
+    text-align: center;
+    color:black;
+}
+.facility-banner p{
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    color:black;
+    
+}
+.facility-banner .btn{
+    font-size: 15px;
+    line-height: 40.03px;
+    font-weight:medium;
+    width:170px;
+    height:50px;
+    border-radius: 50px;
+    background-color: #009344;
+    color:white;
+}
+.facility-banner  .btn{
+    text-align: center;
+}
+
+.rounded-button{
+    width:70px;
+    height:70px;
+    background-color:#009344;
+    color: white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 50%;
+    border:none;
+    text-decoration: none;
+}
+.icons{
+    width:20px;
+    height:20px;
+    color:white;
+
+}
+.icon-title{
+    font-size: 18px;
+    font-weight: 500;
+ 
+}
+.team-banner .team{
+    margin-left:10%;
+    width:500px;
+    height:489px;
+    
+}
+.team-banner h2{
+    font-size: 35px;
+    font-weight:600 ;
+    line-height: 70px;
+    text-align: left;
+    color:black;
+   
+}
+.team-banner p{
+    font-size: 16px;
+    font-weight: normal;
+    text-align:left;
+    color:black;
+    
+    
+}
+.team-banner .btn{
+    font-size: 15px;
+    line-height: 40.03px;
+    font-weight:medium;
+    width:170px;
+    height:50px;
+    border-radius: 50px;
+    background-color: #009344;
+    color:white;
+}
+.main-footer{
+    background-color:#fafafa;
+}
+.footer-head{
+    font-size:18px;
+    font-weight: 600;
+    color:black;
+    padding-left:30%;
+}
+.footer-logo{
+    padding-left:30%;
+}
+.footer-sub{
+    font-size: 15px;
+    font-weight: normal;
+    padding-left:30%;
+}
+.copyright{
+    background-color: #eaeaea;
+}
+.page-footer{
+    font-size: 15px;
+    font-weight: normal;
+}
+
+
+
+
+
+
+
+
+
+
