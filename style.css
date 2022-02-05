@@ -28,7 +28,7 @@
 .home-banner .jumbotron{
     margin:0px;
     padding:100px 60px;
-    background-image: url('/assets/banner.png');
+    background-image: url('/limenzy-UI/assets/banner.png');
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 0.78;
@@ -117,7 +117,7 @@
 .services-banner .jumbotron{
     margin:0px;
     padding:80px 60px;
-    background-image: url('/assets/treatments.png');
+    background-image: url('/limenzy-UI/assets/treatments.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
